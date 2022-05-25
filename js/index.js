@@ -63,7 +63,7 @@ function renderPosts(items) {
 
                         <div class="short-likes">
                             <i class="fas fa-heart"></i>
-                            <span>${p.data.likes}</span>
+                            <span>${p.data.likes.length}</span>
                         </div>
                     </div>
                 </a>
